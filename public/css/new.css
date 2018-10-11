@@ -98,6 +98,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
     width: 100%;
+    height: 50px;
     background-color: #070606;
     font-family: 'Raleway', arial;
     position: -webkit-sticky;
