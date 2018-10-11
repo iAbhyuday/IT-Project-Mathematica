@@ -97,7 +97,6 @@ body {
 /* Style the top navigation bar */
 .topnav {
     width: 100%;
-    overflow: hidden;
     background-color: black;
     font-family: 'Raleway', arial;
      position: -webkit-sticky;
