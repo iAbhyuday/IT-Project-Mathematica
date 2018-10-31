@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  <link rel="stylesheet" href="css/primetest.css">
+ <link rel="stylesheet" href="css/responsive.css">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
@@ -14,12 +16,12 @@
 <body>
 <script>
 function openNav() {
-    document.getElementById("mySidenav").style.width = "15%";
-}
+        document.getElementById("mySidenav").classList.add("mySidenav-open");
+    }
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
+    function closeNav() {
+        document.getElementById("mySidenav").classList.add("mySidenav-close");
+    }
 </script>
 <div class="header">
 
