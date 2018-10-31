@@ -1,0 +1,45 @@
+img {
+  max-width: 100%;
+  height: auto !important; }
+
+.mySidenav-open {
+  width: 15%; }
+
+.mySidenav-close {
+  width: 0; }
+
+@media (max-width: 1199.98px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap; }
+  .button {
+    width: 100%; }
+  div.leftcolumn, div.sticky {
+    float: none;
+    width: 100%; }
+  div.sticky {
+    padding-left: 0; }
+  p {
+    padding-left: 0 !important;
+    margin-left: 0 !important; }
+  div, span, button {
+    margin-left: 0 !important; }
+  .mySidenav-open {
+    width: 90%; }
+  .mySidenav-close {
+    width: 0; }
+  .topnav {
+    height: auto; } }
+
+@media (max-width: 991.98px) {
+  .topnav {
+    z-index: 1; }
+  .topnav a {
+    float: none; }
+  .dropdown {
+    display: flex;
+    flex-direction: column; }
+  div.sticky {
+    position: relative; }
+  .dropdown-content {
+    position: relative; } }
